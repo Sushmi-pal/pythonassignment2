@@ -1,0 +1,46 @@
+# def cameltosnake(s):
+#
+#     liststring=list(s)
+#     j=0
+#     iter=[]
+#     for i in range(len(s)):
+#         if s[i].isupper()==True:
+#             iter.append(i)
+#     def camel(j,iter):
+#
+#         for i in range(1,len(iter)):
+#             a=liststring[j:iter[i]]
+#             bjoin=''.join(a)
+#             clower=bjoin.lower()
+#             print(clower+'_',end='')
+#             j=iter[i]
+#
+#         last=liststring[iter[-1]:]
+#         lastjoin=''.join(last)
+#         print(lastjoin.lower())
+#
+#     def kebab(j,iter):
+#
+#         j=0
+#         for i in range(1,len(iter)):
+#
+#             a=liststring[j:iter[i]]
+#             bjoin=''.join(a)
+#             clower=bjoin.lower()
+#             print(clower+'-',end='')
+#             j=iter[i]
+#
+#         last=liststring[iter[-1]:]
+#         lastjoin=''.join(last)
+#         print(lastjoin.lower())
+#
+#     print('CamelCased To SnakeCased')
+#     camel(j,iter)
+#     print('\nCamelCased To KebabCased')
+#     kebab(j,iter)
+#
+# cameltosnake('ThisIsCamelCaseString')
+
+.idea/
+
+
